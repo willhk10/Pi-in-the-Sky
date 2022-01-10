@@ -3,7 +3,7 @@ Task: Launch Raspberry Pi into the sky, collect data, and do something at the ap
 
 ## Table of Contents
 * [Planning](#Planning)
-  * [Initial Ideas](#Initial_Ideas)
+  * [Initial Ideas](#Initial-Ideas)
   * [To-Do](#To-Do)
 
 <br>
@@ -22,7 +22,7 @@ Task: Launch Raspberry Pi into the sky, collect data, and do something at the ap
     * Cons - Maximum PSI limits potential height, mildly dangerous due to high pressure
 
 ## Final Design Plan
-We decided to make a Bottle Rocket due to the inexpensive, easy construction, and the flexibility of the design. The maximum PSI will not limit the height drastically, and the path of the flight cou controlled 
+We decided to make a Bottle Rocket due to the inexpensive, easy construction, and the flexibility of the design. The maximum PSI will not limit the height drastically, and the path of the flight could be controlled by varying the pressure and angle at lauch.
 
 ##  To-Do
 * 
