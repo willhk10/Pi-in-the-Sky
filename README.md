@@ -23,7 +23,7 @@ Task: Launch Raspberry Pi into the sky, collect data, and do something at the ap
 
 ## Final Design Plan
 We decided to make a Bottle Rocket due to the inexpensive, easy construction, and the flexibility of the design. The maximum PSI will not limit the height drastically, and the path of the flight could be controlled by varying the pressure and angle at lauch.
-<img src="1.10.22rocket.jpg" width="700px" /> 
+<img src="1-10-22rocket.jpg" width="700px" /> 
 
 ##  To-Do
 * 
