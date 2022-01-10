@@ -26,5 +26,17 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
 
 <img src="Media/1-10-22rocket.jpg" width="300px" height="400" /> 
 
-##  To-Do
-* 
+#  ***To-Do***
+* ***Design parachute release mechanism***
+* ***Create stronger rocket***
+  * Create and print fins
+  * Possibly create two staged rocket (Helmstetter)
+  * Possible mid-air propulsion system\
+* ***Design place for Pi on the rocket***
+* ***Code accelerometer***
+  * Find max height
+  * Get information at max height
+  * Gather information during the flight
+* ***Code parachute deploy***
+  * Create system to deploy parachute
+* ***Code barometric pressure altitude sensor***
