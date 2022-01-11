@@ -40,3 +40,14 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
 * ***Code parachute deploy***
   * Create system to deploy parachute
 * ***Code barometric pressure altitude sensor***
+* ***CAD***
+  * Fins
+  * Pi Holder
+  * Camera mount
+  * Parachute release
+  * Possible connector or valve for multi-stage 
+  
+
+# 1.11/22
+ ### Work done -
+ * Found diameter of bottle through friction fit laser printing ~ 107.14mm and determined the method of attaching the fins by 3d printing them on a thin sleeve that will friction fit to the bottle.
