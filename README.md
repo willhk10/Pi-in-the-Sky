@@ -53,3 +53,6 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
  * Found diameter of bottle laser cutting circles with successively larger diameters until it fit snugly, which happened with a 107mm circle, meaning the real diameter of the bottle is closer to ~ 107.14mm due to the 0.14mm kerf of the laser. This measurement will be used to 3d print a friction fit sleeve on which the fins will be mounted.
 
 # 1.13.22
+  ### Work done - 
+  * 3d printed mock sleeve to friction fit full sleeve eventually, spoke with Mr. Helmstetter about future two body propulsion of the rocket, and created a prototype sleeve for the rocket
+  <img src="BottleSleeve.png" width="650px" height="600" /> 
