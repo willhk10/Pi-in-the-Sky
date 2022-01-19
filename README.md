@@ -56,3 +56,7 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
   ### Work done - 
   * 3d printed mock sleeve to friction fit full sleeve eventually, spoke with Mr. Helmstetter about future multistage two body propulsion of the rocket, and created a prototype sleeve for the rocket
   <img src="Media/BottleSleeve.png" width="300" height="277" /> 
+
+# 1.19.22
+  ### Work done - 
+  * Wrote test barometric pressure altimeter code which prints pressure, altitude, and temperature read from the MPL3115A2 barometric pressure altimeter
