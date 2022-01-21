@@ -62,4 +62,6 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
   * Wrote test barometric pressure altimeter code which prints pressure, altitude, and temperature read from the MPL3115A2 barometric pressure altimeter
 
 # 1.21.22
- ### Work done - 
+ ### Work done -
+ * Determined method for attaching payload to rocket and securing payload container to rocket.
+   <img src="Media/BottleDiagram.png" width="300" height="277" /> 
