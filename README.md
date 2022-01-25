@@ -31,7 +31,7 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
 * ***Create stronger rocket***
   * Create and print fins
   * Possibly create two staged rocket (Helmstetter)
-  * Possible mid-air propulsion system\
+  * Possible mid-air propulsion system
 * ***Design place for Pi on the rocket***
 * ***Code accelerometer***
   * Find max height
@@ -46,8 +46,19 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
   * Camera mount
   * Parachute release
   * Possible connector or valve for multi-stage 
-  
 
+# Tentative Schedule
+ * Week of 1.10 - Finish sleeve to go around rocket
+ * Week of 1.17 - Determine method of attaching payload
+ * Week of 1.24 - Design and  work on creation of payload
+ * Week of 1.31 - Coding and fabrication of payload electronics and cone
+ * Week of 2.7 - Finish fabrication and test rocket launch
+ * Week of 2.14 -  If not finished with fabrication, finish fabrication and test rocket. If test from Week of 2.7 successful, begin implementation of electronics
+ * Week of 2.21 - Test electronics, if successful, try launching with electronics. If not, get electronics working
+ * Week of 2.28 - If electronics working, test launching with electronics. If launch successful, ADD BOOSTERS.
+ * Week of 3.7 - Get boosters working
+ * Week of 3.14 - Get boosters working better.
+ * Week of 3.21 - Documentation and getting boosters and electronics working
 # 1.11.22
  ### Work done -
  * Found diameter of bottle laser cutting circles with successively larger diameters until it fit snugly, which happened with a 107mm circle, meaning the real diameter of the bottle is closer to ~ 107.14mm due to the 0.14mm kerf of the laser. This measurement will be used to 3d print a friction fit sleeve on which the fins will be mounted.
