@@ -74,5 +74,5 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
 
 # 1.21.22
  ### Work done -
- * Determined method for attaching payload to rocket and securing payload container to rocket.
+ * Determined method for attaching payload to rocket and securing payload container to rocket. <br/>
    <img src="Media/BottleDiagram.png" width="300" height="277" /> 
