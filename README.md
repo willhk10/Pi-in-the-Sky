@@ -59,6 +59,7 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
  * Week of 3.7 - Get boosters working
  * Week of 3.14 - Get boosters working better.
  * Week of 3.21 - Documentation and getting boosters and electronics working
+ * Week of 3.21 through week of 5.9 - Refine boosters, launching system, and rocket, and complete documentation.
 # 1.11.22
  ### Work done -
  * Found diameter of bottle laser cutting circles with successively larger diameters until it fit snugly, which happened with a 107mm circle, meaning the real diameter of the bottle is closer to ~ 107.14mm due to the 0.14mm kerf of the laser. This measurement will be used to 3d print a friction fit sleeve on which the fins will be mounted.
