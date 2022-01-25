@@ -25,6 +25,14 @@ Task: Launch Raspberry Pi into the sky, collect data, and do something at the ap
 We decided to make a Bottle Rocket due to the inexpensive, easy construction, and the flexibility of the design. The maximum PSI will not limit the height drastically, and the path of the flight could be controlled by varying the pressure and angle at lauch. Additionally, we will use a barometric pressure sensor to determine the altitude and release a parachute when the rocket is at its apex. [Multi-stage bottle rocket explanation](http://www.aircommandrockets.com/howitworks_1.htm)
 
 <img src="Media/1-10-22rocket.jpg" width="300px" height="400" /> 
+<br/>
+
+### Payload, Parachute, and Parameters
+
+For the design of the payload and top of the rocket, we decided to cut the bottom of another bottle off and place it on the top of the inital rocket to give a platform for the payload, and we are going to attach a 3d printed cone to the top of both bottles which will house the parachute and release mechanism and be held on by strings tied to the fins. 
+
+<br/>
+<img src="Media/Parachute Design.jpg" width="300px" height="400" /> 
 
 #  ***To-Do***
 * ***Design parachute release mechanism***
