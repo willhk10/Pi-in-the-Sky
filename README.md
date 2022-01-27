@@ -85,3 +85,11 @@ For the design of the payload and top of the rocket, we decided to cut the botto
  ### Work done -
  * Determined method for attaching payload to rocket and securing payload container to rocket. <br/>
    <img src="Media/BottleDiagram.png" width="300" height="277" /> 
+
+# 1.25.22
+ ### Work done -
+ * Made tentative schedule and came up with design for parachute deployment using a nosecone that opens and releases the parachute after a servo releases it. Also finalized base of rocket and fins.
+
+# 1.27.22
+  ### Work done -
+  * Printed 
