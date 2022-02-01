@@ -99,3 +99,9 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   ### Work done -
   * Worked on the onshape design of the top cone 
   * Worked on code for recording barometer data to a csv file so it can be easily plotted
+# 2.1.22
+  ### Work done -
+  * Did first test launch(es)
+    * Lessons learned 
+    * Bigger and more robust fins that are higher up
+    * Use launcher that has a set trajectory 
