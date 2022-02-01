@@ -11,14 +11,13 @@ sensor.sealevel_pressure = 102250
 est = timezone(timedelta(hours = -5)) # Creates est timezone 5:00 behind utc
 startTime = datetime.now(est)
 curTime = startTime
-nextPrintTime= curTime + timedelta(seconds = .5)
-fpath = startTime.strftime("/%m-%d-%Y~%H:%M~barometerdata.csv")
-os.mkdir(fpath)
-with open(fpath) as f:
+nextTime= curTime #+ timedelta(seconds = .5)
+fpath = startTime.strftime("%m-%d-%Y_%H:%M_barometerdata.csv")
+with open(fpath, 'w') as f:
     writer = csv.writer(f)
-    while curTime - startTime < timedelta(seconds = 5):
-        curTime =  datetime.now(est)
-        if curTime - nextPrintTime > timedelta(microseconds = 0):
-            print(f"Altitude: {sensor.altitude} \n Time: {curTime} \n")
-            writer.writerow([curTime, sensor.altitude])
-            nextPrintTime = curTime + timedelta(seconds = .5)
+    while True:
+        curTime = datetime.now(est)
+        if curTime - nextTime > timedelta(microseconds = 0):
+            #print(f"Altitude: {sensor.altitude}\nTime: {curTime}\nTimedelta: {(curTime-startTime).total_seconds()}\n")
+            writer.writerow([curTime, (curTime-startTime).total_seconds(), sensor.altitude])
+            nextTime = nextTime + timedelta(microseconds = 500000)
