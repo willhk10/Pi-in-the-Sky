@@ -92,7 +92,10 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 # 1.27.22
   ### Work done -
-  * Printed 
+  * Finalized design of fins and attachment
+  * Wrote pseudocode for Raspberry Pi function during launch, began working on code
 
 # 1.31.22
-  ### Work done - worked on onshape for the top cone, and worked on coding for accelerometer and camera
+  ### Work done -
+  * Worked on the onshape design of the top cone 
+  * Worked on code for recording barometer data to a csv file so it can be easily plotted
