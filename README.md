@@ -107,3 +107,8 @@ For the design of the payload and top of the rocket, we decided to cut the botto
     * Bigger and more robust fins that are higher up
     * Use launcher that has a set trajectory 
   * Got altitude to record to a csv with timestamps
+
+# 2.3.22
+  ### Work done-
+  * Moved fins further up so they will be more in the air stream and made wider so they would be less delicate
+  * Coded the accelerometer
