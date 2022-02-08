@@ -112,3 +112,8 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   ### Work done-
   * Moved fins further up so they will be more in the air stream and made wider so they would be less delicate
   * Coded the accelerometer
+
+# 2.8.22
+  ### Work done-
+  * Updated CSV recorder so it will record temperature, barometric pressure, and accelerometer x, y, and z readings
+  * Add a button to start recording data
