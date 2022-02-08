@@ -113,7 +113,13 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   * Moved fins further up so they will be more in the air stream and made wider so they would be less delicate
   * Coded the accelerometer
 
-# 2.8.22
-  ### Work done-
+# 2.7.22
+  ### Work done -
   * Updated CSV recorder so it will record temperature, barometric pressure, and accelerometer x, y, and z readings
   * Add a button to start recording data
+
+# 2.8.22
+  ### Work done - 
+  * Changed MPL3115A2 library Python file `/usr/local/lib/python3.7/dist-packages/adafruit_mpl3115a2.py` on line 147 from `REG1_OS128` to `REG1_OS8` which seems to increase the cycle speed of the barometric pressure altimeter
+  * Finished most of the cone, including servo and torsion spring holder.
+  * Tested parachute to make sure diameter was large enough
