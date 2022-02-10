@@ -61,13 +61,14 @@ For the design of the payload and top of the rocket, we decided to cut the botto
  * Week of 1.24 - Design and  work on creation of payload
  * Week of 1.31 - Coding and fabrication of payload electronics and cone
  * Week of 2.7 - Finish fabrication and test rocket launch
- * Week of 2.14 -  If not finished with fabrication, finish fabrication and test rocket. If test from Week of 2.7 successful, begin implementation of electronics
+ * Week of 2.14 - finish fabrication and test rocket
  * Week of 2.21 - Test electronics, if successful, try launching with electronics. If not, get electronics working
- * Week of 2.28 - If electronics working, test launching with electronics. If launch successful, ADD BOOSTERS.
- * Week of 3.7 - Get boosters working
- * Week of 3.14 - Get boosters working better.
- * Week of 3.21 - Documentation and getting boosters and electronics working
- * Week of 3.21 through week of 5.9 - Refine boosters, launching system, and rocket, and complete documentation.
+ * Week of 2.28 - Continue testing electronics
+ * Week of 3.7 - If electronics working, test launching with electronics. If launch successful, ADD BOOSTERS.
+ * Week of 3.14 - Get boosters working
+ * Week of 3.21 - Get boosters working better.
+ * Week of 3.28 - Documentation and getting boosters and electronics working
+ * Week of 3.28 through week of 5.9 - Refine boosters, launching system, and rocket, and complete documentation.
 # 1.11.22
  ### Work done -
  * Found diameter of bottle laser cutting circles with successively larger diameters until it fit snugly, which happened with a 107mm circle, meaning the real diameter of the bottle is closer to ~ 107.14mm due to the 0.14mm kerf of the laser. This measurement will be used to 3d print a friction fit sleeve on which the fins will be mounted.
