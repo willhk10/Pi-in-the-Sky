@@ -124,3 +124,15 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   * Changed MPL3115A2 library Python file `/usr/local/lib/python3.7/dist-packages/adafruit_mpl3115a2.py` on line 147 from `REG1_OS128` to `REG1_OS8` which seems to increase the cycle speed of the barometric pressure altimeter
   * Finished most of the cone, including servo and torsion spring holder.
   * Tested parachute to make sure diameter was large enough
+
+# 2.14.22
+  ### Work done -
+  * Two test launches of rocket with new fins
+    * First launch 
+      * 600mL water
+      * not enough thrust, very strong launch through
+      * 90 PSI
+    * Second launch
+      * Leaking through launch malfunction
+      * Almost killed second most valuable teammate 
+      * almost lost a finger (or 3)
