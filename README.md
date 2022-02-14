@@ -136,3 +136,9 @@ For the design of the payload and top of the rocket, we decided to cut the botto
       * Leaking through launch malfunction
       * Almost killed second most valuable teammate 
       * almost lost a finger (or 3)
+
+# 2.15.22
+  ### Work TO DO -
+  * Input up to date screenshots of base of fins, cone, and the assembly
+  * add eyelets onto the cone
+  * Do another launch test with 750 mL water with fixed launcher with two clamps instead of one
