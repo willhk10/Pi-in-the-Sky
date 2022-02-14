@@ -130,7 +130,7 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   * Two test launches of rocket with new fins
     * First launch 
       * 600mL water
-      * not enough thrust, very strong launch through
+      * not enough thrust, very strong launch though
       * 90 PSI
     * Second launch
       * Leaking through launch malfunction
