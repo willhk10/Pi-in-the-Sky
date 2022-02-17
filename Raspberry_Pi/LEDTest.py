@@ -8,9 +8,9 @@ GPIO.setup(rPin, GPIO.OUT)
 GPIO.setup(gPin, GPIO.OUT)
 GPIO.setup(bPin, GPIO.OUT)
 
-GPIO.output(rPin, True)
-GPIO.output(bPin, False)
-GPIO.output(gPin, True)
+GPIO.output(rPin, False)
+GPIO.output(gPin, False)
+GPIO.output(bPin, True)
 
 while True:
     rgb = input()
