@@ -12,25 +12,39 @@ altimeter.sealevel_pressure = 102250
 
 lsm303 = Adafruit_LSM303.LSM303()
 
-buttonPin = 21
+controlButtonPin = 21
+servoButtonPin = -1
+rPin, gPin, bPin = 25, 23, 18
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(controlButtonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(servoButtonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(rPin, GPIO.OUT)
+GPIO.setup(gPin, GPIO.OUT)
+GPIO.setup(bPin, GPIO.OUT)
 
 est = timezone(timedelta(hours = -5)) # Creates est timezone 5:00 behind utc
 
-flightData = []
+red = (0, 1, 1)
+green = (1, 0, 1)
+blue = (1, 1, 0)
+def setLED(rgb):
+    GPIO.output(rPin, int(rgb[0]))
+    GPIO.output(gPin, int(rgb[1]))
+    GPIO.output(bPin, int(rgb[2]))
 
 print("Waiting for button press")
-while GPIO.input(buttonPin): # Waits for a button press
+while GPIO.input(controlButtonPin): # Waits for a button press
     pass
-while not GPIO.input(buttonPin): # Then a button release to start recording
+while not GPIO.input(controlButtonPin): # Then a button release to start recording
     pass
 print("Recording")
 
+flightData = []
+startAlt = altimeter.altitude()
 startTime = datetime.now(est)
 csvPath = startTime.strftime("%m-%d-%Y_%H:%M_barometerdata.csv")
-while GPIO.input(buttonPin): # Records until button pressed
+while GPIO.input(controlButtonPin): # Records until button pressed
     curTime = datetime.now(est)
     if True:
         #accel, mag = lsm303.read()
