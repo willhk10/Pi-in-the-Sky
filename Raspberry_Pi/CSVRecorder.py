@@ -13,7 +13,8 @@ altimeter.sealevel_pressure = 102250
 lsm303 = Adafruit_LSM303.LSM303()
 
 controlButtonPin = 21
-servoButtonPin = -1
+servoButtonPin = 27
+servoPin = 13
 rPin, gPin, bPin = 25, 23, 18
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -22,10 +23,17 @@ GPIO.setup(servoButtonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(rPin, GPIO.OUT)
 GPIO.setup(gPin, GPIO.OUT)
 GPIO.setup(bPin, GPIO.OUT)
+GPIO.setup(servoPin, GPIO.OUT)
+servo = GPIO.PWM(servoPin, 50)
+openCycle = 2.5
+closedCycle = 12.5
+servoIsOpen = True
+servo.start(openCycle)
 
 est = timezone(timedelta(hours = -5)) # Creates est timezone 5:00 behind utc
 
 red = (0, 1, 1)
+yellow = (0, 0, 1)
 green = (1, 0, 1)
 blue = (1, 1, 0)
 def setLED(rgb):
@@ -33,15 +41,24 @@ def setLED(rgb):
     GPIO.output(gPin, int(rgb[1]))
     GPIO.output(bPin, int(rgb[2]))
 
+setLED(yellow)
 print("Waiting for button press")
 while GPIO.input(controlButtonPin): # Waits for a button press
-    pass
+    if not GPIO.input(servoButtonPin):
+        if servoIsOpen:
+            servo.ChangeDutyCycle(closedCycle)
+            servoIsOpen = False
+        elif not servoIsOpen:
+            servo.ChangeDutyCycle(openCycle)
+            servoIsOpen = True
+        while not GPIO.input(servoButtonPin):
+            pass # Wait for button release
 while not GPIO.input(controlButtonPin): # Then a button release to start recording
     pass
 print("Recording")
-
+setLED(green)
 flightData = []
-startAlt = altimeter.altitude()
+startAlt = altimeter.altitude
 startTime = datetime.now(est)
 csvPath = startTime.strftime("%m-%d-%Y_%H:%M_barometerdata.csv")
 while GPIO.input(controlButtonPin): # Records until button pressed
@@ -61,5 +78,5 @@ with open(csvPath, 'w') as f:
     #writer.writerow(['timestamp', 'seconds from start', 'altitude', 'pressure', 'temperature', 'accelerometer x', 'accelerometer y', 'accelerometer z'])
     writer.writerow(['timestamp', 'seconds from start', 'altitude'])
     writer.writerows(flightData)
-
+setLED(red)
 print("Recording Ended")
