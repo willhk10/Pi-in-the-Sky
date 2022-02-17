@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "main.py": [
+      {
+        "id": "22e921f6-91e2-44cc-9ec3-27ff450caf47",
+        "line": 1,
+        "version": 5,
+        "index": 0
+      }
+    ]
+  }
 }
