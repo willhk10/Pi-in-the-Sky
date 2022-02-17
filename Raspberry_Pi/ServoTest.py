@@ -1,30 +1,26 @@
 import RPi.GPIO as GPIO
 import time
 
-servoPIN = 13
+servoPin = 13
+buttonPin = 27
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(servoPIN, GPIO.OUT)
-
-p = GPIO.PWM(servoPIN, 50) # GPIO 17 for PWM with 50Hz
+GPIO.setup(servoPin, GPIO.OUT)
+GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+p = GPIO.PWM(servoPin, 50) # GPIO 17 for PWM with 50Hz
 p.start(2.5) # Initialization
+
+servoOpen = True
+servoPosCycle = {True:2.5, False:12.5}
+
 try:
   while True:
-    p.ChangeDutyCycle(5)
-    time.sleep(0.5)
-    p.ChangeDutyCycle(7.5)
-    time.sleep(0.5)
-    p.ChangeDutyCycle(10)
-    time.sleep(0.5)
-    p.ChangeDutyCycle(12.5)
-    time.sleep(0.5)
-    p.ChangeDutyCycle(10)
-    time.sleep(0.5)
-    p.ChangeDutyCycle(7.5)
-    time.sleep(0.5)
-    p.ChangeDutyCycle(5)
-    time.sleep(0.5)
-    p.ChangeDutyCycle(2.5)
-    time.sleep(0.5)
+    if not GPIO.input(buttonPin):
+      print("boo")
+      servoOpen = not servoOpen
+      p.ChangeDutyCycle(servoPosCycle[servoOpen])
+      while not GPIO.input(buttonPin):
+        pass
+
 except KeyboardInterrupt:
   p.stop()
   GPIO.cleanup()
