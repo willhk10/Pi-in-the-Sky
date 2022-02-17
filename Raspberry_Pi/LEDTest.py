@@ -13,7 +13,7 @@ GPIO.output(gPin, False)
 GPIO.output(bPin, True)
 
 while True:
-    rgb = input()
-    GPIO.output(rPin, int(rgb[0]))
-    GPIO.output(gPin, int(rgb[1]))
-    GPIO.output(bPin, int(rgb[2]))
+  rgb = input()
+  GPIO.output(rPin, int(rgb[0]))
+  GPIO.output(gPin, int(rgb[1]))
+  GPIO.output(bPin, int(rgb[2]))

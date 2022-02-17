@@ -37,24 +37,24 @@ yellow = (0, 0, 1)
 green = (1, 0, 1)
 blue = (1, 1, 0)
 def setLED(rgb):
-    GPIO.output(rPin, int(rgb[0]))
-    GPIO.output(gPin, int(rgb[1]))
-    GPIO.output(bPin, int(rgb[2]))
+  GPIO.output(rPin, int(rgb[0]))
+  GPIO.output(gPin, int(rgb[1]))
+  GPIO.output(bPin, int(rgb[2]))
 
 setLED(yellow)
 print("Waiting for button press")
 while GPIO.input(controlButtonPin): # Waits for a button press
-    if not GPIO.input(servoButtonPin):
-        if servoIsOpen:
-            servo.ChangeDutyCycle(closedCycle)
-            servoIsOpen = False
-        elif not servoIsOpen:
-            servo.ChangeDutyCycle(openCycle)
-            servoIsOpen = True
-        while not GPIO.input(servoButtonPin):
-            pass # Wait for button release
+  if not GPIO.input(servoButtonPin):
+    if servoIsOpen:
+      servo.ChangeDutyCycle(closedCycle)
+      servoIsOpen = False
+    elif not servoIsOpen:
+      servo.ChangeDutyCycle(openCycle)
+      servoIsOpen = True
+    while not GPIO.input(servoButtonPin):
+      pass # Wait for button release
 while not GPIO.input(controlButtonPin): # Then a button release to start recording
-    pass
+  pass
 print("Recording")
 setLED(green)
 flightData = []
@@ -62,21 +62,21 @@ startAlt = altimeter.altitude
 startTime = datetime.now(est)
 csvPath = startTime.strftime("%m-%d-%Y_%H:%M_barometerdata.csv")
 while GPIO.input(controlButtonPin): # Records until button pressed
-    curTime = datetime.now(est)
-    if True:
-        #accel, mag = lsm303.read()
-        #accelX, accelY, accelZ = accel
-        #accelX = round(accelX/107, 3)
-        #accelY = round(accelY/107, 3)
-        #accelZ = round(accelZ/107, 3)
-        secFromStart = (curTime-startTime).total_seconds()
-        #flightData.append([curTime, secFromStart, altimeter.altitude, altimeter.pressure, altimeter.temperature, accelX, accelY, accelZ])
-        flightData.append([curTime, secFromStart, altimeter.altitude])
+  curTime = datetime.now(est)
+  if True:
+    #accel, mag = lsm303.read()
+    #accelX, accelY, accelZ = accel
+    #accelX = round(accelX/107, 3)
+    #accelY = round(accelY/107, 3)
+    #accelZ = round(accelZ/107, 3)
+    secFromStart = (curTime-startTime).total_seconds()
+    #flightData.append([curTime, secFromStart, altimeter.altitude, altimeter.pressure, altimeter.temperature, accelX, accelY, accelZ])
+    flightData.append([curTime, secFromStart, altimeter.altitude])
 
 with open(csvPath, 'w') as f:
-    writer = csv.writer(f)
-    #writer.writerow(['timestamp', 'seconds from start', 'altitude', 'pressure', 'temperature', 'accelerometer x', 'accelerometer y', 'accelerometer z'])
-    writer.writerow(['timestamp', 'seconds from start', 'altitude'])
-    writer.writerows(flightData)
+  writer = csv.writer(f)
+  #writer.writerow(['timestamp', 'seconds from start', 'altitude', 'pressure', 'temperature', 'accelerometer x', 'accelerometer y', 'accelerometer z'])
+  writer.writerow(['timestamp', 'seconds from start', 'altitude'])
+  writer.writerows(flightData)
 setLED(red)
 print("Recording Ended")
