@@ -138,7 +138,16 @@ For the design of the payload and top of the rocket, we decided to cut the botto
       * almost lost a finger (or 3)
 
 # 2.15.22
-  ### Work TO DO -
+### Work To Do -
+  
   * Input up to date screenshots of base of fins, cone, and the assembly
   * add eyelets onto the cone
   * Do another launch test with 750 mL water with fixed launcher with two clamps instead of one
+  
+### Work Done - 
+|Launch|Water (ml)|PSI|Launch Notes|
+|-|-|-|-|
+|1|700|95|Rocket turned sharply back and to the right immediately after launch|
+|2|600|70|Rocket turned sharply back and to the left, the same direction as the janky fin|
+|3|600|65|Rocket turned to the right but circled around to the left behind the launcher|
+|3|600|65|Rocket started straighter than other launches but still turned toward janky fin|
