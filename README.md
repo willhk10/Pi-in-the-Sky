@@ -40,7 +40,7 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
   * RGB LED indicator
 
 ### Risk Mitigation
-To ensure our safety whilst using potentially dangerous compressed air, we will always wear safety glasses when the launcher is pressurized. Additionally, we will clearly communicate when the launcher is pressurized and when the pressure will b released and the rocket launched.
+To ensure our safety whilst using potentially dangerous compressed air, we will always wear safety glasses when the launcher is pressurized. Additionally, we will clearly communicate when the launcher is pressurized and when the pressure will be released and the rocket launched.
 
 ### Pseudocode
 User presses button <br/>
@@ -178,3 +178,6 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 |2|600|70|Rocket turned sharply back and to the left, the same direction as the janky fin|
 |3|600|65|Rocket turned to the right but circled around to the left behind the launcher|
 |3|600|65|Rocket started straighter than other launches but still turned toward janky fin|
+
+
+### 
