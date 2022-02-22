@@ -24,7 +24,7 @@ Task: Launch Raspberry Pi into the sky, collect data, and do something at the ap
 ## Final Design Plan
 We decided to make a Bottle Rocket due to the inexpensive, easy construction, and the flexibility of the design. The maximum PSI will not limit the height drastically, and the path of the flight could be controlled by varying the pressure and angle at lauch. Additionally, we will use a barometric pressure sensor to determine the altitude and release a parachute when the rocket is at its apex. [Multi-stage bottle rocket explanation](http://www.aircommandrockets.com/howitworks_1.htm)
 
-## Materials
+### Materials
 * 2 liter bottles
 * 3d printed fins
 * 3d printed nosecone
@@ -39,10 +39,10 @@ We decided to make a Bottle Rocket due to the inexpensive, easy construction, an
   * Buttons
   * RGB LED indicator
 
-## Risk Mitigation
+### Risk Mitigation
 To ensure our safety whilst using potentially dangerous compressed air, we will always wear safety glasses when the launcher is pressurized. Additionally, we will clearly communicate when the launcher is pressurized and when the pressure will b released and the rocket launched.
 
-## Pseudocode
+### Pseudocode
 User presses button <br/>
 Start recording altitude<br/>
 Change LED color to show that it is recording<br/>
