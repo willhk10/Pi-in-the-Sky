@@ -64,24 +64,16 @@ startTime = datetime.now(est)
 csvPath = startTime.strftime("%m-%d-%Y_%H:%M_barometerdata.csv")
 while GPIO.input(controlButtonPin): # Records until button pressed
   curTime = datetime.now(est)
-  if True:
-    lastAlt = alt
-    alt = altimeter.altitude
-    if lastAlt > alt and (alt - startAlt) > 5:
-      servo.ChangeDutyCycle(openCycle)
-      setLED(blue)
-    #accel, mag = lsm303.read()
-    #accelX, accelY, accelZ = accel
-    #accelX = round(accelX/107, 3)
-    #accelY = round(accelY/107, 3)
-    #accelZ = round(accelZ/107, 3)
-    secFromStart = (curTime-startTime).total_seconds()
-    #flightData.append([curTime, secFromStart, altimeter.altitude, altimeter.pressure, altimeter.temperature, accelX, accelY, accelZ])
-    flightData.append([curTime, secFromStart, alt])
+  lastAlt = alt
+  alt = altimeter.altitude
+  if lastAlt > alt and (alt - startAlt) > 5:
+    servo.ChangeDutyCycle(openCycle)
+    setLED(blue)
+  secFromStart = (curTime-startTime).total_seconds()
+  flightData.append([curTime, secFromStart, alt])
 
 with open(csvPath, 'w') as f:
   writer = csv.writer(f)
-  #writer.writerow(['timestamp', 'seconds from start', 'altitude', 'pressure', 'temperature', 'accelerometer x', 'accelerometer y', 'accelerometer z'])
   writer.writerow(['timestamp', 'seconds from start', 'altitude'])
   writer.writerows(flightData)
 setLED(red)
