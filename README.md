@@ -175,9 +175,9 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 |Launch|Water (ml)|PSI|Launch Notes|
 |-|-|-|-|
 |1|700|95|Rocket turned sharply back and to the right immediately after launch|
-|2|600|70|Rocket turned sharply back and to the left, the same direction as the janky fin|
+|2|600|70|Rocket turned sharply back and to the left, the same direction as the scraped fin|
 |3|600|65|Rocket turned to the right but circled around to the left behind the launcher|
-|3|600|65|Rocket started straighter than other launches but still turned toward janky fin|
+|3|600|65|Rocket started straighter than other launches but still turned toward scraped fin|
 
 
 ### 
