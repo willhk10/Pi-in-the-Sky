@@ -180,4 +180,22 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 |3|600|65|Rocket started straighter than other launches but still turned toward scraped fin|
 
 
-### 
+# 2.22.22 (wow)
+### Work done - 
+* Worked on PCB
+* Worked on Cone for tip of rocket and hinge for releasing parachute
+* Prepared for launches next class
+
+# 2.24.22
+### Work done - 
+
+* Launches!
+
+|Launch|Water (ml)|PSI|Launch Notes|
+|-|-|-|-|
+|1|600|70|Sharp turn to the right of the launcher, small puff of water at the end indicating a lack of water|
+|2|700|70|Sharp right turn at launch, a smaller puff of water at the end indicating more water needed for full potential|
+|3|800|70|Sharp right turn, no puff at the end idicating a proper amount of water inside|
+|4|800|105|-|
+
+
