@@ -196,6 +196,5 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 |1|600|70|Sharp turn to the right of the launcher, small puff of water at the end indicating a lack of water|
 |2|700|70|Sharp right turn at launch, a smaller puff of water at the end indicating more water needed for full potential|
 |3|800|70|Sharp right turn, no puff at the end idicating a proper amount of water inside|
-|4|800|105|-|
-
-
+|4|800|105|Sharp right turn off launch, no puff at end indicating proper amount of water. Very high launch velocity. |
+* Finished(?) PCB
