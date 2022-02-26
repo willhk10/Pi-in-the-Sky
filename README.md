@@ -205,9 +205,14 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   * I went online and did some research on rockets and came across two articles explaining [two topics](https://www.nakka-rocketry.net/fins.html#cgcp), one familiar, and one pretty new to me.
   * These two topics are known as the center of mass and the center of pressure. The center of mass is where an object is perfectly balanced horizontally and vertically, and the center of pressure is the center of force where the aerodynamic pressure acts upon it.
   * In order for there to be balance in the rocket and for it to fly straight, the center of pressure must be two inches or more behind the center of mass.
-  *  We tested the center of pressure by taking the surface area of the rocket (A cutout of the rocket diameters) and then used a finger to determine the midpoint of the folded up diagram.
+  *  We tested the center of pressure by taking the surface area of the rocket (A cutout of the rocket surface area) and then used a finger to determine the center of mass of the folded up diagram. This would determine the center of pressure on the rocket.
   *  When looking at our rocket, the center of mass and center of pressure was in the same location. This is extremely bad.
   * We added length to the rocket and added in a baseball instead of a tennis ball to hopefully move the center of mass forwards, and sure enough, it ended up being around 3.5 inches further up the ball than it was previously.
   
     <img src="Media/IMG-5433.jpg" width="300" height="400" /> 
-    <img src="Media/66758886632--C741883F-5703-4C1A-BE6E-48A7A98B5A9B.jpg" width="300" height="400" /> 
+    <img src="Media/66758886632--C741883F-5703-4C1A-BE6E-48A7A98B5A9B.jpg" width="300" height="400" />
+
+  * Needless to say, this did the trick...!!!!
+
+
+<img src="Media/" width="300" height="400" /> 
