@@ -209,5 +209,5 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   *  When looking at our rocket, the center of mass and center of pressure was in the same location. This is extremely bad.
   * We added length to the rocket and added in a baseball instead of a tennis ball to hopefully move the center of mass forwards, and sure enough, it ended up being around 3.5 inches further up the ball than it was previously.
   
-    <img src="Media/IMG-5434.jpg" width="300" height="277" /> 
-    <img src="Media/66758886632--C741883F-5703-4C1A-BE6E-48A7A98B5A9B.jpg" width="300" height="277" /> 
+    <img src="Media/IMG-5434.jpg" width="300" height="500" /> 
+    <img src="Media/66758886632--C741883F-5703-4C1A-BE6E-48A7A98B5A9B.jpg" width="300" height="500" /> 
