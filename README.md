@@ -116,7 +116,7 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 # 1.25.22
  ### Work done -
- * Made tentative schedule and came up with design for parachute deployment using a nosecone that opens and releases the parachute after a servo releases it. Also finalized base of rocket and fins.
+ * Made tentative schedule and came up with the design for parachute deployment using a nosecone that opens and releases the parachute after a servo releases it. Also finalized base of rocket and fins.
 
 # 1.27.22
   ### Work done -
@@ -126,7 +126,7 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 # 1.31.22
   ### Work done -
   * Worked on the onshape design of the top cone 
-  * Worked on code for recording barometer data to a csv file so it can be easily plotted
+  * Worked on code for recording barometer data to a CSV file so it can be easily plotted
 
 # 2.1.22
   ### Work done -
@@ -167,9 +167,9 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 # 2.15.22
 ### Work To Do -
   
-  * Input up to date screenshots of base of fins, cone, and the assembly
+  * Input up to date screenshots of the base of fins, cone, and the assembly
   * add eyelets onto the cone
-  * Do another launch test with 750 mL water with fixed launcher with two clamps instead of one
+  * Do another launch test with 750 mL water with a fixed launcher with two clamps instead of one
   
 ### Work Done - 
 |Launch|Water (ml)|PSI|Launch Notes|
@@ -183,7 +183,7 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 # 2.22.22 (wow)
 ### Work done - 
 * Worked on PCB
-* Worked on Cone for tip of rocket and hinge for releasing parachute
+* Worked on Cone for tip of rocket and hinge for releasing the parachute
 * Prepared for launches next class
 
 # 2.24.22
@@ -195,6 +195,15 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 |-|-|-|-|
 |1|600|70|Sharp turn to the right of the launcher, small puff of water at the end indicating a lack of water|
 |2|700|70|Sharp right turn at launch, a smaller puff of water at the end indicating more water needed for full potential|
-|3|800|70|Sharp right turn, no puff at the end idicating a proper amount of water inside|
-|4|800|105|Sharp right turn off launch, no puff at end indicating proper amount of water. Very high launch velocity. |
+|3|800|70|Sharp right turn, no puff at the end indicating a proper amount of water inside|
+|4|800|105|Sharp right turn off the launch, no puff at the end indicating the proper amount of water. Very high launch velocity. |
 * Finished(?) PCB
+
+# 2.26.22
+### Work Done -
+* After getting pretty darn fed up with all of the ways that the rocket has been failing, we decided to take a step back and redesign.
+  * I went online and did some research on rockets and came across two articles explaining [two topics](https://www.nakka-rocketry.net/fins.html#cgcp), one familiar, and one pretty new to me.
+  * These two topics are known as the center of mass and the center of pressure. The center of mass is where an object is perfectly balanced horizontally and vertically, and the center of pressure is the center of force where the aerodynamic pressure acts upon it.
+  * In order for there to be balance in the rocket and for it to fly straight, the center of pressure must be two inches or more behind the center of mass. When looking at our rocket, the center of mass and center of pressure was in the same location. This is extremely bad.
+  * We tested the center of pressure by taking the surface area of the rocket (A cutout of the rocket diameters) and then 
+  * We added length to the 
