@@ -215,4 +215,4 @@ For the design of the payload and top of the rocket, we decided to cut the botto
   * Needless to say, this did the trick...!!!!
 
 
-<img src="Media/Rocketlaunch.gif" width="300" height="400" /> 
+<img src="Media/Rocketlaunch.gif" width="540" height="960" /> 
