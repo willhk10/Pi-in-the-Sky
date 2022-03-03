@@ -216,3 +216,11 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 
 <img src="Media/Rocketlaunch.gif" width="540" height="960" /> 
+
+# 2.28.22
+### Work Done - 
+* Test launched for the class to see, perfect trajectory. Flight path of the rocket is entirely figured out.
+
+# 3.1.22
+### Workd done -
+* Finished PCB and printed! One problem - The holes for the Pi are not in the proper location. This means we have to figure out why the PCB Diagram was incorrect next class.
