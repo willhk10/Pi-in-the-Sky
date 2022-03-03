@@ -227,7 +227,8 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 # 3.3.22
 ### Work done -
-* Worked on PCB and discussed a few crucial problems we need to work out
+* Fixed problem with small pin spacing in 
+* Discussed a few crucial problems we need to work out
   * Problems to work on -
     * Where to place PCB
     * Where to put weight(Copper Shot)
