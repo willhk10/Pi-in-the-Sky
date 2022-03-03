@@ -222,5 +222,15 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Test launched for the class to see, perfect trajectory. Flight path of the rocket is entirely figured out.
 
 # 3.1.22
-### Workd done -
+### Work done -
 * Finished PCB and printed! One problem - The holes for the Pi are not in the proper location. This means we have to figure out why the PCB Diagram was incorrect next class.
+
+# 3.3.22
+### Work done -
+* Worked on PCB and discussed a few crucial problems we need to work out
+  * Problems to work on -
+    * Where to place PCB
+    * Where to put weight(Copper Shot)
+    * How to store PCB to have minimal damage if parachute fails
+    * Where to tie parachute to rocket with most stability and with least tangled cords
+
