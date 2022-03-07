@@ -235,3 +235,7 @@ For the design of the payload and top of the rocket, we decided to cut the botto
     * How to store PCB to have minimal damage if parachute fails
     * Where to tie parachute to rocket with most stability and with least tangled cords
 
+# 3.7.22
+### Work Done - 
+* Starting cutting of fixed PCB
+* Determined location of PCB will be in the middle compartment for the time being, and created a location to put the Copper shot for the weight of the rocket.
