@@ -239,3 +239,9 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 ### Work Done - 
 * Starting cutting of fixed PCB
 * Determined location of PCB will be in the middle compartment for the time being, and created a location to put the Copper shot for the weight of the rocket.
+
+# 3.8.22
+### Work Done - 
+* Grinded off copper on back of PCB Plate
+* Created location in cone for Copper shot and calculated the volume of the small cone we will need to have to satisfy our weight needs
+* Started working on fixing diameter of the cone onshape
