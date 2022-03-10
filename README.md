@@ -242,6 +242,6 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 # 3.8.22
 ### Work Done - 
-* Grinded off copper on back of PCB Plate
-* Created location in cone for Copper shot and calculated the volume of the small cone we will need to have to satisfy our weight needs
-* Started working on fixing diameter of the cone onshape
+* Ground off the copper on the back of PCB Plate
+* Created cavity in cone for Copper shot and calculated the volume of the small cone we will need to have to satisfy our weight needs
+* Fixed cone diameter, which entailed redesigning some features to be more flexible, and changed torsion spring holder to fir the springs we have
