@@ -245,3 +245,10 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Ground off the copper on the back of PCB Plate
 * Created cavity in cone for Copper shot and calculated the volume of the small cone we will need to have to satisfy our weight needs
 * Fixed cone diameter, which entailed redesigning some features to be more flexible, and changed torsion spring holder to fir the springs we have
+
+# 3.10.22
+### Work Done -
+* Finished design for cone and started 3d print
+* Soldered headers and components to PCB
+* Figured out why the Raspberry Pi was shutting down every time we plugged it in to the PCB
+* Rotated two of the switches π/2 radians so they wouldn't cause a short and turn off the Pi
