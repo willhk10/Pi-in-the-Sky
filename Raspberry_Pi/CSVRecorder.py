@@ -1,6 +1,6 @@
 import board
 import adafruit_mpl3115a2
-import Adafruit_LSM303
+#import Adafruit_LSM303
 import RPi.GPIO as GPIO
 from datetime import datetime, timedelta, timezone
 import csv
@@ -10,15 +10,15 @@ i2c = board.I2C()
 altimeter = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 altimeter.sealevel_pressure = 102250
 
-lsm303 = Adafruit_LSM303.LSM303()
+#lsm303 = Adafruit_LSM303.LSM303()
 
-controlButtonPin = 21
-servoButtonPin = 27
+recordButtonPin = 16
+servoButtonPin = 12
 servoPin = 13
-rPin, gPin, bPin = 25, 23, 18
+rPin, gPin, bPin = 19, 26, 21
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(controlButtonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(recordButtonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(servoButtonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(rPin, GPIO.OUT)
 GPIO.setup(gPin, GPIO.OUT)
@@ -43,7 +43,7 @@ def setLED(rgb):
 
 setLED(yellow)
 print("Waiting for button press")
-while GPIO.input(controlButtonPin): # Waits for a button press
+while GPIO.input(recordButtonPin): # Waits for a button press
   if not GPIO.input(servoButtonPin):
     if servoIsOpen:
       servo.ChangeDutyCycle(closedCycle)
@@ -53,20 +53,23 @@ while GPIO.input(controlButtonPin): # Waits for a button press
       servoIsOpen = True
     while not GPIO.input(servoButtonPin):
       pass # Wait for button release
-while not GPIO.input(controlButtonPin): # Then a button release to start recording
+while not GPIO.input(recordButtonPin): # Then a button release to start recording
   pass
 print("Recording")
 setLED(green)
 flightData = []
-startAlt = altimeter.altitude
-alt = startAlt
+alt = altimeter.altitude
+maxAlt = alt
+startAlt = alt
 startTime = datetime.now(est)
 csvPath = startTime.strftime("%m-%d-%Y_%H:%M_barometerdata.csv")
-while GPIO.input(controlButtonPin): # Records until button pressed
+while GPIO.input(recordButtonPin): # Records until button pressed
   curTime = datetime.now(est)
   lastAlt = alt
   alt = altimeter.altitude
-  if lastAlt > alt and (alt - startAlt) > 5:
+  if alt > maxAlt:
+    maxAlt = alt
+  if alt + 2 < maxAlt and alt > startAlt + 1:
     servo.ChangeDutyCycle(openCycle)
     setLED(blue)
   secFromStart = (curTime-startTime).total_seconds()

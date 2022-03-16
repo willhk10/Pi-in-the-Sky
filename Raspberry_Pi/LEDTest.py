@@ -1,14 +1,14 @@
 import RPi.GPIO as GPIO
 GPIO.setwarnings(False)
 
-rPin, gPin, bPin = 25, 23, 18
+rPin, gPin, bPin = 19, 26, 21
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(rPin, GPIO.OUT)
 GPIO.setup(gPin, GPIO.OUT)
 GPIO.setup(bPin, GPIO.OUT)
 
-GPIO.output(rPin, False)
+GPIO.output(rPin, True)
 GPIO.output(gPin, False)
 GPIO.output(bPin, True)
 
