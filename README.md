@@ -252,3 +252,14 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Soldered headers and components to PCB
 * Figured out why the Raspberry Pi was shutting down every time we plugged it in to the PCB
 * Rotated two of the switches π/2 radians so they wouldn't cause a short and turn off the Pi
+
+# 3.14.22
+### Work Done
+* Soldered more to try and fix various connections.
+* Discovered that Pi was mirrored and therefore we were plugging it in backwards the whole time and somehow didn't fry multiple Pis.
+
+# 3.16.22
+#### Work Done
+* Resoldered a new header onto the Pi
+* Resoldered RGB LEDs
+* Everything now working except for code for Altimeter and arming mechanism. Will print next class
