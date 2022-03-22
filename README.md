@@ -263,3 +263,19 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Resoldered a new header onto the Pi
 * Resoldered RGB LEDs
 * Everything now working except for code for Altimeter and arming mechanism. Will print next class
+
+# 3.21.22
+### Work Done
+* Got code working along with rocket, and tested functionality of all seperate pieces and they all worked perfectly
+* Servo activated and servo twisted to open the cone when the altimeter detected a change in barometric pressure. Parachute popped out and should have enough time to catch air and float safely to the ground.
+* Will try to test by next class! 
+
+# 3.22.22
+### Work Done
+* ***Tested...***
+  * *It didn't work.* The code worked properly and should have allowed for the cone to open, allowing for the parachute to deploy, but the cone did not open.
+* ***What we learned from the launch -***
+  * Test more than you think you need to before actually launching
+  * Test parts independently of one another, and then slowly add more and more parts to the testing until you have done as much as you can without actually launching or activating the project.
+  * Rethink the way the rocket deploys. Maybe deploy from the side, or the bottom, rather than the top.
+  * Rethink the attachment of the PCB to the rocket. Don't attach straight to the rocket in order to prevent catastrophic failures like what happened during this launch.
