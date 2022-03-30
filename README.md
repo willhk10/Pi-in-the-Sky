@@ -273,9 +273,24 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 # 3.22.22
 ### Work Done
 * ***Tested...***
-  * *It didn't work.* The code worked properly and should have allowed for the cone to open, allowing for the parachute to deploy, but the cone did not open.
+  * *It didn't work.* The code worked properly and turned the servo which should have released the rubber band holding the cone close, releasing the parachute, but for some reason (something got tangled possibly) it didn't open
+  * Upon impact with the ground, the cone split severely and our PCB, which was bolted to the inside of the bottle, also cracked
 * ***What we learned from the launch -***
   * Test more than you think you need to before actually launching
   * Test parts independently of one another, and then slowly add more and more parts to the testing until you have done as much as you can without actually launching or activating the project.
-  * Rethink the way the rocket deploys. Maybe deploy from the side, or the bottom, rather than the top.
+  * Rethink the way the parachute deploys. Maybe deploy from the side, or the bottom, rather than the top.
   * Rethink the attachment of the PCB to the rocket. Don't attach straight to the rocket in order to prevent catastrophic failures like what happened during this launch.
+
+# 3.24.22
+### Work Done
+* Glued PCB back together and soldered traces across where it had broken
+* Started designing new cone with parachute release based on [this](https://www.youtube.com/watch?v=COkh5ykzC3Y) video
+
+# 3.28.22
+### Work Done
+* Worked on design of the new cone
+
+# 3.30.22
+### Work Done
+* Finished design of new cone! Added in wall to catch servo arm and holes to prevent the face of the rocket from falling into oblivion when parachute deploys.
+* Printed the top cone to see if it will work through ground testing.
