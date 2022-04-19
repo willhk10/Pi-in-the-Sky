@@ -300,9 +300,20 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Tested how the parachute door fit on the top part of cone
 * Printed bottom part of cone
 
-# 4.13.22
+# 4.12.22
 ### Work Done
 * Bolted together top and bottom parts of cone
 * Attached servo and servo horn
 * Tested parachute release mechanism
 * Tested parachute and realized that we need a larger parachute given the mass of our rocket
+
+# 4.14.22
+### Work Done
+* Made larger parachute out of old umbrella and tested with a weight
+* Cut larger hole in cone for parachute cords and shock cord made out of several rubber bands
+
+# 4.17.22
+### Work Done
+* Assembled and tested rocket
+* Due to how the electronics were packed, all of the weight of the circuit board and battery were resting on the SD card, causing it to crack under the force of the rapid acceleration at launch
+* Since the SD card broke, the parachute door stayed closed, so it hit the ground without being slowed at all, causing everything to break
