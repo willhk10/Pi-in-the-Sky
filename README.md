@@ -294,3 +294,15 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 ### Work Done
 * Finished design of new cone! Added in wall to catch servo arm and holes to prevent the face of the rocket from falling into oblivion when parachute deploys.
 * Printed the top cone to see if it will work through ground testing.
+
+# 4.11.22
+### Work Done
+* Tested how the parachute door fit on the top part of cone
+* Printed bottom part of cone
+
+# 4.13.22
+### Work Done
+* Bolted together top and bottom parts of cone
+* Attached servo and servo horn
+* Tested parachute release mechanism
+* Tested parachute and realized that we need a larger parachute given the mass of our rocket
