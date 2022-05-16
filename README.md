@@ -317,3 +317,4 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Assembled and tested rocket
 * Due to how the electronics were packed, all of the weight of the circuit board and battery were resting on the SD card, causing it to crack under the force of the rapid acceleration at launch
 * Since the SD card broke, the parachute door stayed closed, so it hit the ground without being slowed at all, causing everything to break
+
