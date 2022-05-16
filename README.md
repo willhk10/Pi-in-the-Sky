@@ -318,3 +318,10 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Due to how the electronics were packed, all of the weight of the circuit board and battery were resting on the SD card, causing it to crack under the force of the rapid acceleration at launch
 * Since the SD card broke, the parachute door stayed closed, so it hit the ground without being slowed at all, causing everything to break
 
+# 4.17.22 - 5.16.22
+### Work Done
+* Lots of AP Exams majorly halted progress, as well as work for CAD Exams.
+* Worked on fixing code after major fails, as well as re-fixing the SD card due to a freak deep-fry accident.
+* Glued circuit board together and resoldered broken connections
+* Re-did services on the Pi like 19 times due to frying and/or killing 2 SD cards
+* Tested multiple different variations of code, and as of 5/16/22 working towards test launching JUST the circuitry inside of a working rocket to determine if the code will fail under real conditions 
