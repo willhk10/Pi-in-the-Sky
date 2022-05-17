@@ -324,4 +324,9 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Worked on fixing code after major fails, as well as re-fixing the SD card due to a freak deep-fry accident.
 * Glued circuit board together and resoldered broken connections
 * Re-did services on the Pi like 19 times due to frying and/or killing 2 SD cards
-* Tested multiple different variations of code, and as of 5/16/22 working towards test launching JUST the circuitry inside of a working rocket to determine if the code will fail under real conditions 
+* Tested multiple different variations of code, and as of 5/16/22 working towards test launching JUST the circuitry inside of a working rocket to determine if the code will fail under real conditions
+
+# 5.17.22
+### Work Done
+* Finished recreating and succesfully tested code
+* Finally emptied bins of unused components
