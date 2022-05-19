@@ -335,5 +335,5 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 ### Work Done
 * Fixed Shutdown button code to make it more apparent that the pi has actually shut down
 * ***Important!!!!*** - Figured out that the Altimeter does NOT work if there is no air flow access to the altimeter. This was determined after multiple launches without air flow access being unsuccessful, and having very odd results, but there being perfect results with air flow access going up and down stairs.
-* with air access - <img src="Media/altimeterair.png" width="540" height="360" />
-* without air access - <img src="Media/altimeternoair.png" width="540" height="360" /> 
+* with air access - <img src="Media/altimeterairacc.png" width="540" height="360" />
+* without air access - <img src="Media/altimeternoairacc.png" width="540" height="360" /> 
