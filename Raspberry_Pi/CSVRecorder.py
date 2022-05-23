@@ -59,6 +59,7 @@ while True:
     pass
   print("Recording")
   setLED(green)
+  servoOpened = False
   flightData = []
   alt = altimeter.altitude
   maxAlt = alt
@@ -71,15 +72,16 @@ while True:
     alt = altimeter.altitude
     if alt > maxAlt:
       maxAlt = alt
-    if alt + 2 < maxAlt and alt > startAlt + 1:
+    if alt + 2 < maxAlt and alt > startAlt + 6:
       servo.ChangeDutyCycle(openCycle)
+      servoOpened = True
       setLED(blue)
     secFromStart = (curTime-startTime).total_seconds()
-    flightData.append([curTime, secFromStart, alt])
+    flightData.append([curTime, secFromStart, alt, servoOpened])
 
   with open(csvPath, 'w') as f:
     writer = csv.writer(f)
-    writer.writerow(['timestamp', 'seconds from start', 'altitude'])
+    writer.writerow(['timestamp', 'seconds from start', 'altitude', 'servo position'])
     writer.writerows(flightData)
   setLED(red)
   print("Recording Ended")
