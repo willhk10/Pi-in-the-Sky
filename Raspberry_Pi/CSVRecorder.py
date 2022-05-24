@@ -50,15 +50,18 @@ while True:
       if servoIsOpen:
         servo.ChangeDutyCycle(closedCycle)
         servoIsOpen = False
+        sleep(.1)
       elif not servoIsOpen:
         servo.ChangeDutyCycle(openCycle)
         servoIsOpen = True
+        sleep(.1)
       while not GPIO.input(servoButtonPin):
         pass # Wait for button release
   while not GPIO.input(recordButtonPin): # Then a button release to start recording
     pass
   print("Recording")
   setLED(green)
+  sleep(.2)
   servoOpened = False
   flightData = []
   alt = altimeter.altitude
