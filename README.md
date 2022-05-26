@@ -353,5 +353,14 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 # ***Conclusion!***
 ## Final thoughts
-Overall, this project was incredibly challenging, but many things could have been 
+* Overall, this project was incredibly challenging, but many things could have been avoided through research and a bit of protection for the rocket.
+* The creation of the body and launcher by [William Keenan](https://github.com/willhk10) and co-creating the CAD model for parachute deployment were all extremely fun and took a large amount of research and planning. The body of the rocket was not easily made, with weight being neeeded in the front to provide for a straight flight. This was a challenge that was overcome in the beginning of the project, as the flight path of the rocket was one of the most important aspects of the project.
+* The launcher was not that difficult to design, as many online sources have created diagrams and schematics for launchers. The only difference between our launcher and other generic launchers was that ours was made of metal piping, and not PVC.
+* The code, made by [Alden Dent](https://github.com/adent11) was not only incredibly effective, but it was easily debugged. This proved to be incredibly useful towards the end of the project, when we figured out that the altimeter had to be open to the atmosphere.
+* The PCB, also created by Alden, was a bit of a rollercoaster. With the combination of learning how to use a new machine, new software, and confusing circuitry, there were a few hiccups documented. However, in the end, we got it all working, and it looked professional.
+
 ## Challenges 
+* The PCB breaking multiple times could have been easily prevented by simply putting a lot of foam or protection around the PCB.
+* The code not working was not actually the code being faulty. In reality, the altimeter just could not detect changes in pressure when inside of a sealed container. We just could never figure this out until the very end of the project because all of the launches inside of a sealed container crashed and did not give any altimeter data.
+* The CAD design was not only very flawed at the beginning, but it was also faulty due to the altimeter not collecting accurate information. Besides that, after one redesign, we had a working model. 
+* Overall there were very few challenges, but they each took a lot of time and effort to get through.
