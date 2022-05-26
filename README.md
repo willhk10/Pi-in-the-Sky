@@ -340,5 +340,11 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 # 5.22.22
 ### Work Done
-* Got data from backpacking on fathers rocket, AND by cutting holes in the cabin that holds the Pi and altimeter.
+* Got data from backpacking on fathers rocket, AND by cutting holes in the cabin that holds the Pi and altimeter to allow the barometer to collect accurate data.
 * ### Data - <img src="Media/Bestdata.png" width="540" height="360" />
+
+# 5.24.22
+### Work Done
+* Launched with a safety remote to make sure we don't have a catastrophic failure
+* All went to plan, the parachute opened when the altitude began decreasing and nothing broke
+* ### Data - <img src="Media/SuccessfulLaunchGraph.PNG" width="540" height="360"/>
