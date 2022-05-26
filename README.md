@@ -353,4 +353,5 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 
 # ***Conclusion!***
 ## Final thoughts
+Overall, this project was incredibly challenging, but many things could have been 
 ## Challenges 
