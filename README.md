@@ -348,3 +348,9 @@ For the design of the payload and top of the rocket, we decided to cut the botto
 * Launched with a safety remote to make sure we don't have a catastrophic failure
 * All went to plan, the parachute opened when the altitude began decreasing and nothing broke
 * ### Data - <img src="Media/SuccessfulLaunchGraph.PNG" width="540" height="360"/>
+* ### Final video -  <img src="Media/Successlaunch.gif" width="340" height="660"/>
+
+
+# ***Conclusion!***
+## Final thoughts
+## Challenges 
